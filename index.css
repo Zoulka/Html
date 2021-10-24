@@ -1,0 +1,267 @@
+
+
+
+ @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body {
+	font-family: 'Advent Pro', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+url {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 30px;
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*  ****************** NAVBAR ************************ */
+
+nav {
+    overflow: hidden;
+    background-color: #FFFAE1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9; 
+}
+
+header li {
+	float: right;
+	font-size: 1.2em;
+}
+
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+#logo {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	float: left;
+}
+
+/****************** IMAGE PRINCIPALE ********************* */
+#imagePrincipale {
+	padding-top: 60px;
+	background: url(image/sacchaussure.jpg) no-repeat fixed 70% 70%;
+	background-size: cover;
+	height: 799px;
+}
+h1 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: antiquewhite;
+	font-size: 6em;
+	margin-top: 100px;
+	text-shadow: 10px 11px 1px orange;
+}
+
+#premierTrait {
+	height: 1px;
+	width: 130px;
+	margin: -3px auto;
+	background-color: #FFFAE1;
+	box-shadow: 1px 3px 2px  orange;
+}
+
+h3 {
+	text-align: center;
+	color: paleturquoise;
+	font-size: 3em;
+	text-shadow: 10px 3px 1px orange;
+}
+
+/* ************* PRESENTATION ************ */
+#presentation {
+	background-color: #FFFAE1;
+	padding: 10px 0px 100px 0;
+}
+#texteintro {
+	padding: 0px 20px;
+}
+#Prestation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10px;
+}
+img {
+	width: 300px;
+	height: 300px;
+}
+.imagesPrestations h4 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 1.8em;
+	margin: 15px;
+	font-weight: 300;
+}
+
+.imagesPrestations img {
+	border-radius: 50px;
+	box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.8);
+}
+
+.imagesPrestations img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.8s ease-in-out;
+}
+
+/* *************** Model ******************* */
+#Visiter_en_ligne {
+	height: 1400px;
+	background-color: #F1F2F6;
+	padding: 1px 2%;
+}
+#Visiter_en_ligne h2 {
+	padding-top: 60px;
+}
+
+#model {
+	background: url(image/photo2.jpg);
+}
+#topchaussures {
+	background: url(image/chussure1.jpg);
+}
+#topvetements {
+	background: url(image/photo3.jpg);
+}
+#Visiter_en_ligne li {
+	margin: 70px 100px 0px 100px;
+	height: 320px;
+	width: 55%;
+	max-width: 550px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 1.0);
+}
+
+#Visiter_en_ligne p {
+	height: 45px;
+	width: 235px;
+	background-color: #01DF74;
+	float: right;
+	margin: 50px _180px 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 15px;
+	box-shadow: 4px 4px 0 1px rgba(90,161, 43, 1.0);
+}
+#Visiter_en_ligne #model{
+	float: right;
+}
+#Visiter_en_ligne #topchaussures {
+	float: left;
+}
+#Visiter_en_ligne #topvetements {
+	float: right;
+} 
+#model p{
+	float: left;
+	background-color: blueviolet;
+	margin-left: -140px;
+}
+
+#topchaussures p {
+	float: left;
+	background-color: cyan;
+	margin-left: -140px;
+}
+#topvetements p {
+	float: right;
+	background-color: orange;
+	margin-right: -140px;
+	box-shadow: -4px 4px 0 1px rgba(15, 154, 156, 1.0);
+}
+
+/* ***************** FOOTER *************************** */
+footer {
+	background-color: #524A3A;
+	color: #FFFAE1;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 900px;
+}
+input, textarea, button {
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family: 'Advent Pro', sans-serif;
+	border-radius: 8px;
+}
+textarea {
+	height: 120px;
+}
+button {
+	font-size: 1.5em;
+	background-color: #FFFAE1;
+}
+button:hover {
+ background-color: #e55039;
+ color: #FFFAE1;
+ cursor: pointer;
+ transition: 0.3s ease-in-out;
+}
+
+#DeuxiemeTrait {
+	height: 1px;
+	width: 75px;
+	background-color: #FFFAE1;
+	margin: 60px auto;
+}
+#coumbishoop {
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+#copyright {
+	width: 50%;
+	text-align: left;
+	color: #FFFAE1;
+}
+#iconst {
+	width: 50%;
+text-align: right;
+}
+
+#iconst a {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 1.3em;
+	color: #FFFAE1;
+}
+#iconst a:hover {
+	transform: scale(1.5);
+	transition: 0.1s;
+}
+
